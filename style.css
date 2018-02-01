@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+body, h1, h2, main {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+}
+
+body {
+        background: #EEE repeating-linear-gradient(-55deg, transparent 0px,
+                white 0px, white 8px, transparent 8px, transparent 11px);
+}
+
+#topbar {
+        width: 100%;
+        padding: 0 20%;
+        position: fixed;
+        background-color: #212121;
+        color: white;
+        top: 0px;
+        text-align: right;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+
+nav {
+        display: inline-block;
+        font-weight: lighter;
+        text-align: right;
+}
+nav a {
+        padding: .5em;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+}
+
+a.selected {
+        border-bottom: 3px solid #009688;
+}
+
+#sig {
+        color: #009688;
+        font-size: 150%;
+        font-family: 'Roboto Slab', serif;
+        text-align: left;
+        position: absolute;
+        top: 0px;
+        left: 8%;
+        font-weight: 300;
+}
+
+#page_body {
+        min-height: 100vh;
+}
+
+main{
+        width: 900px;
+        padding: 30px 30px;
+        margin: 0 auto;
+        background-color: white;
+}
+#intro {
+        font-size: 200%;
+        margin: 0 auto;
+        width: 420px;
+}
+h1 {
+        color: #757575;
+        font-size: 300%;
+        font-family: 'Roboto Slab', serif;
+}
+
+#intro h2 {
+        color: #00796B;
+        position: relative;
+        top: 20px;
+        font-weight: lighter;
+}
+
+#footer {
+        background-color: #BDBDBD;
+        width: 100%;
+        height: 6em;
+        position: absolute;
+        bottom: 0;
+}
+
+.circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: inline-block;
+        opacity: .5;
+        mix-blend-mode: multiply;
+}
+
+#red {
+        background-color: red;
+        position: relative;
+        left: 20px;
+}
+
+#blue{
+        background-color: green;
+}
