@@ -4,12 +4,12 @@
 body, h1, h2, main {
         margin: 0;
         padding: 0;
-        font-family: sans-serif;
 }
 
 body {
         background: #EEE repeating-linear-gradient(-55deg, transparent 0px,
-                white 0px, white 8px, transparent 8px, transparent 11px);
+                white 0px, white 8px, transparent 8px, transparent 11px) 0 0;
+        font-family: 'Roboto', sans-serif;
 }
 
 #topbar {
@@ -30,7 +30,7 @@ nav {
         text-align: right;
 }
 nav a {
-        padding: .5em;
+        padding: 1em;
         display: inline-block;
         text-decoration: none;
         color: white;
@@ -46,25 +46,37 @@ a.selected {
         font-family: 'Roboto Slab', serif;
         text-align: left;
         position: absolute;
-        top: 0px;
+        top: .4em;
         left: 8%;
         font-weight: 300;
 }
 
 #page_body {
         min-height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
 }
 
 main{
         width: 900px;
-        padding: 30px 30px;
-        margin: 0 auto;
+        padding: 60px 30px;
         background-color: white;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
 }
 #intro {
         font-size: 200%;
         margin: 0 auto;
-        width: 420px;
+        width: 400px;
 }
 h1 {
         color: #757575;
@@ -80,11 +92,10 @@ h1 {
 }
 
 #footer {
-        background-color: #BDBDBD;
+        background-color: #EEE;
         width: 100%;
         height: 6em;
-        position: absolute;
-        bottom: 0;
+        color: #212121;
 }
 
 .circle {
@@ -104,4 +115,26 @@ h1 {
 
 #blue{
         background-color: green;
+}
+
+.entry {
+        margin-left: 30px;
+}
+
+.entry h4 {
+        font-family: 'Roboto Slab';
+}
+
+.experience {
+
+}
+
+.position {
+        margin-left: 30px;
+}
+ul {
+        margin-left: 30px;
+}
+.time_period {
+        color: #757575;
 }
