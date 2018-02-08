@@ -7,7 +7,7 @@ Implementation:
 * Could have used git a bit more
 * Validates with no errors
 
-Collaboration: I asked a TA about CSS3 usage and a friend if they liked my fonts.
+Collaboration: I asked a TA if CSS3 usage was okay and a friend if they liked my fonts.
 
 Hours:
 

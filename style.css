@@ -113,6 +113,11 @@ h1 {
 
 .entry h4 {
         font-family: 'Roboto Slab';
+        margin: 0;
+}
+
+.entry p {
+        margin-left: 30px;
 }
 
 .experience {
@@ -127,4 +132,14 @@ ul {
 }
 .time_period {
         color: #757575;
+        font-family: 'Roboto';
+        font-weight: 300;
+}
+
+ul.collapsed li {
+        display: inline-block;
+}
+
+ul.collapsed li::before{
+        content: '  \2022  ';
 }
