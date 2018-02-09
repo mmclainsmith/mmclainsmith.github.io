@@ -9,7 +9,7 @@ Implementation:
 
 Collaboration: I asked a TA if CSS3 usage was okay and a friend if they liked my fonts.
 
-Hours:
+Time: 5ish hours?
 
 To do:
 * Vendor prefixes
